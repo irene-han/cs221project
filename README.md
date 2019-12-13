@@ -1,22 +1,22 @@
 # A Biomarker Panel for Depression: An AI Approach
 ## Code:
 
-### For our baseline experiment, we ran the following commands:
+#### For our baseline experiment, we ran the following commands:
 python3 logistic.py
 
 python3 k-means.py
 
-### For our p-progress experiment, we ran the following python commands:
+#### For our p-progress experiment, we ran the following python commands:
 python3 extract.py //note 1
 
 python3 gbm.py
 
-### For our final experiments on broad depression, we ran the following python commands:
+#### For our final experiments on broad depression, we ran the following python commands:
 python3 process.py //note 2
 
 python3 gbm.py
 
-### For our final experiments on probable depression, we ran the following python commands:
+#### For our final experiments on probable depression, we ran the following python commands:
 python3 probable_depression.py //note 3
 
 python3 gbm.py //note 4
