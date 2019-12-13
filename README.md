@@ -33,7 +33,7 @@ python3 gbm.py //note 4
 
 
 
-Note:
+**Note:**
 1 This program takes raw data from the UK BioBank and outputs normalized data to the text file: “data_biomarkers_normalized”. This output file does not contain interaction terms.
 
 2 This program takes raw data from the UK BioBank and outputs pre-processed data to the text file: “data_biomarkers_normalized_by_age_v2”. This output file does contain interaction terms.
