@@ -1,4 +1,10 @@
 # A Biomarker Panel for Depression: An AI Approach
+## Data:
+Our data came from the UK BioBank, a private database. We made up a fake database of 10 participants for “data_biomarkers_normalized” and ““data_biomarkers_normalized_by_age_v2” using the following command:
+python3 generate_fake_data.py
+
+All fake data files contain the prefix: “fake_”
+
 ## Code:
 
 #### For our baseline experiment, we ran the following commands:
@@ -21,6 +27,10 @@ python3 probable_depression.py //note 3
 
 python3 gbm.py //note 4
 
+#### Other scripts that were created for interacting with the UK BioBank, and used outside of this particular project, include:
+Rscript get_UKphenotypes.r
+
+python3 remove_extra_instances.py
 
 
 ## Note:
@@ -30,9 +40,3 @@ python3 gbm.py //note 4
 This program is equivalent to process.py, but uses “probable depression” labels instead of “broad depression labels”
 
 3 This program runs our gbm and DBSCAN algorithms.
-
-## Data:
-Our data came from the UK BioBank, a private database. We made up a fake database of 10 participants for “data_biomarkers_normalized” and ““data_biomarkers_normalized_by_age_v2” using the following command:
-python3 generate_fake_data.py
-
-All fake data files contain the prefix: “fake_”
