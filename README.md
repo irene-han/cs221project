@@ -1,8 +1,12 @@
 # A Biomarker Panel for Depression: An AI Approach
 **Code:**
+
 For our baseline experiment, we ran the following commands:
+
 python3 logistic.py
+
 python3 k-means.py
+
 
 For our p-progress experiment, we ran the following python commands:
 python3 extract.py //note 1
